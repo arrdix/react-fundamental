@@ -1,0 +1,33 @@
+@import url(../styles/base.css);
+
+.auth-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.auth-form input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--secondary);
+    color: var(--fonts);
+}
+.auth-form button {
+    width: 100%;
+    height: 50px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    color: var(--fonts-reverse);
+    background-color: var(--extended);
+}
+.auth-form button[disabled] {
+    cursor: not-allowed;
+    background-color: var(--disabled-bg);
+    color: var(--disabled-fonts);
+}

@@ -1,0 +1,15 @@
+@import url(../styles/base.css);
+
+.delete-button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.delete-button__icon {
+    font-size: 1rem;
+    color: var(--clickable);
+}
+.delete-button__icon:hover {
+    color: var(--hover);
+    transition: color 0.3s ease;
+}

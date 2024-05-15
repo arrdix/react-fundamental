@@ -1,0 +1,35 @@
+@import url(../styles/base.css);
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.note-form__head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.note-form__title {
+    border: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: var(--fonts);
+}
+.note-form__content {
+    font-size: 1rem;
+    font-family: inherit !important;
+    background-color: transparent;
+    color: var(--fonts);
+    width: 100% !important;
+    height: 750px;
+    resize: none;
+    border: 0;
+}
+.note-form__title:active,
+.note-form__title:focus,
+.note-form__content:active,
+.note-form__content:focus {
+    outline: 0;
+}

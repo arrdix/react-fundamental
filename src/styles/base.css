@@ -1,0 +1,62 @@
+html {
+    --primary: #111111;
+    --secondary: #202020;
+    --clickable: rgb(148, 148, 148);
+    --hover: whitesmoke;
+    --secondary-hover: #1d1d1d;
+    --fonts: whitesmoke;
+    --fonts-reverse: #111111;
+    --extended: whitesmoke;
+    --disabled-bg: #505050;
+    --disabled-fonts: whitesmoke;
+}
+html[theme='light'] {
+    --primary: whitesmoke;
+    --secondary: #dbdbdb;
+    --clickable: #111111;
+    --hover: #575757;
+    --secondary-hover: #dbdbdb;
+    --fonts: #111111;
+    --fonts-reverse: whitesmoke;
+    --extended: #111111;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary);
+    color: var(--fonts);
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+#root {
+    width: 500px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.app-container,
+.home-page,
+.archive-page,
+.new-page,
+.detail-page {
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #202020;
+}
+::-webkit-scrollbar-thumb {
+    background: #202020;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #202020;
+}

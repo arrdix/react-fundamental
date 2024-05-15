@@ -1,0 +1,16 @@
+@import url(../styles/base.css);
+
+.unarchive-button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+}
+.unarchive-button__icon {
+    font-size: 1rem;
+    color: var(--clickable);
+    transition: color 0.3s ease;
+}
+.unarchive-button__icon:hover {
+    color: var(--fonts);
+    transition: color 0.3s ease;
+}

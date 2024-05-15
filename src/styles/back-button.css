@@ -1,0 +1,16 @@
+@import url(../styles/base.css);
+
+.back-button {
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+    color: var(--clickable);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+.back-button:hover {
+    color: var(--hover);
+    transition: color 0.3s ease;
+}

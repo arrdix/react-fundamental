@@ -1,0 +1,20 @@
+@import url(../styles/base.css);
+
+.search-bar {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.search-bar__input {
+    width: 100%;
+    height: 40px;
+    background-color: var(--secondary);
+    color: var(--fonts);
+    border: 0;
+    border-radius: 15px;
+    padding-inline: 1rem;
+    font-size: 1rem;
+}
+.search-bar__input:active,
+.search-bar__input:focus {
+    outline: 0;
+}

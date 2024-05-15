@@ -1,0 +1,20 @@
+@import url(../styles/base.css);
+
+.auth-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.auth-form__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth-form__foot {
+    display: flex;
+    gap: 0.5rem;
+}
+.auth-form__link {
+    color: var(--fonts);
+}

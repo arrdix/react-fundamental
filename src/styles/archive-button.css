@@ -1,0 +1,16 @@
+@import url(../styles/base.css);
+
+.archive-button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+}
+.archive-button__icon {
+    font-size: 1rem;
+    color: var(--clickable);
+    transition: color 0.3s ease;
+}
+.archive-button__icon:hover {
+    color: var(--hover);
+    transition: color 0.3s ease;
+}

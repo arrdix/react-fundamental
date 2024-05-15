@@ -1,0 +1,30 @@
+@import url(../styles/base.css);
+
+.note-item {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid var(--secondary);
+}
+.note-item__link {
+    text-decoration: none;
+}
+.note-item__title {
+    margin-bottom: 1rem;
+    color: var(--fonts);
+}
+.note-item__content {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.note-item__date {
+    margin-right: auto;
+    font-size: 0.9rem;
+    color: var(--clickable);
+}
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+}
